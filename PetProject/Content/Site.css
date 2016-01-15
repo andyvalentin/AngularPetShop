@@ -1,0 +1,77 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #c5d5cb;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbarcustom{
+    background-color: #9fa8a3;
+    color: darkslategrey;
+    border-radius: 5px;
+}
+
+.custombrand {
+    font-family: 'Marck Script', cursive;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.jumbotron {     
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+}
+
+.thumbcustom {
+margin-top:50px;
+}
+
+#customwell {
+    font-size: 55px;
+}
+
+
+#navhome_link {
+    background-color: #9fa8a3;
+    border-radius: 5px;
+    color: darkslategrey;
+    font-family: 'Marck Script', cursive;
+    font-size: 20px;
+}
+
+#navhome_link:hover {
+    background-color: #9fa8a3;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Marck Script', cursive;
+}
+
+#navhome_link:visited {
+    background-color: #9fa8a3;
+    border-radius: 5px;
+    font-family: 'Marck Script', cursive;
+}
+
+#details_image {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+
+.underline {
+    text-decoration: underline;
+    font-weight: bold;
+}

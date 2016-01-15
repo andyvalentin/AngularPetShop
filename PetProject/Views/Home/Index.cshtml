@@ -1,0 +1,32 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml" ng-app="PetProject">
+<head>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular-route.js"></script>
+    <script src="~/ngApp/models/pet.js"></script>
+    <script src="~/ngApp/models/petCollection.js"></script>
+    <script src="~/ngApp/controllers/homeController.js"></script>
+    <script src="~/ngApp/controllers/detailsController.js"></script>
+    <script src="~/ngApp/app.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Marck+Script' rel='stylesheet' type='text/css'>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/bundles/modernizr")
+    <title>My Pet App</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <nav class="navbar navbar-static-top navbarcustom">
+            <nav class="custombrand navbar-header">Welcome to Paws of Love</nav>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/" id="navhome_link">Home</a></li>
+            </ul>
+        </nav>
+        <ng-view></ng-view>
+    </div>
+    
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>
